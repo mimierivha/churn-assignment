@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Evaluation</title>
+</head>
+<body>
+    <h1>Reading Radio buttons</h1>
+
+<div id="section" class="sect">
+    <form action = "/" method="POST">
+        <h3>gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" id='1' name="gender" value='1'>
+        <label for="female">Female</label>
+        <input type="radio" id=0 name="gender" value=0>
+
+         <h3>Partner</h3>
+        <label for="Partner">Yes</label>
+        <input type="radio" id='1' name="Partner" value='1'>
+        <label for="Partner">No</label>
+        <input type="radio" id=0 name="Partner" value=0>
+
+         <h3>SeniorCitizen</h3>
+        <label for="SeniorCitizen">Yes</label>
+        <input type="radio" id='1' name="SeniorCitizen" value='1'>
+        <label for="SeniorCitizen">No</label>
+        <input type="radio" id=0 name="SeniorCitizen" value=0>
+
+
+        <h3>Dependents</h3>
+        <label for="Dependents">Yes</label>
+        <input type="radio" id='1' name="Dependents" value='1'>
+        <label for="Dependents">No</label>
+        <input type="radio" id=0 name="Dependents" value=0>
+
+        <h3>tenure</h3>
+        <input type="number" name="tenure" placeholder="tenure"><br>
+
+        <h3>PhoneService</h3>
+        <label for="PhoneService">Yes</label>
+        <input type="radio" id='1' name="PhoneService" value='1'>
+        <label for="PhoneService">No</label>
+        <input type="radio" id=0 name="PhoneService" value=0>
+
+        <h3>MultipleLines</h3>
+        <label for="MultipleLines">No Phone Service</label>
+        <input type="radio" id='1' name="MultipleLines" value='1'>
+        <label for="MultipleLines">Yes</label>
+        <input type="radio" id='2' name="MultipleLines" value='2'>
+        <label for="MultipleLines">No</label>
+        <input type="radio" id=0 name="MultipleLines" value=0>
+
+        <h3>InternetService</h3>
+        <label for="InternetService">DSL</label>
+        <input type="radio" id='0' name="InternetService" value='0'>
+        <label for="InternetService">Fibre Optic</label>
+        <input type="radio" id='1' name="InternetService" value='1'>
+        <label for="InternetService">No</label>
+        <input type="radio" id=2 name="InternetService" value=2>
+
+        <h3>OnlineSecurity</h3>
+        <label for="OnlineSecurity">No internet service</label>
+        <input type="radio" id='1' name="OnlineSecurity" value='1'>
+        <label for="OnlineSecurity">Yes</label>
+        <input type="radio" id='2' name="OnlineSecurity" value='2'>
+        <label for="OnlineSecurity">No</label>
+        <input type="radio" id=0 name="OnlineSecurity" value=0>
+
+        <h3>OnlineBackup</h3>
+        <label for="OnlineBackup">No internet service</label>
+        <input type="radio" id='1' name="OnlineBackup" value='1'>
+        <label for="OnlineBackup">Yes</label>
+        <input type="radio" id='2' name="OnlineBackup" value='2'>
+        <label for="OnlineBackup">No</label>
+        <input type="radio" id=0 name="OnlineBackup" value=0>
+
+        <h3>DeviceProtection</h3>
+        <label for="DeviceProtection">No internet service</label>
+        <input type="radio" id='1' name="DeviceProtection" value='1'>
+        <label for="DeviceProtection">Yes</label>
+        <input type="radio" id='2' name="DeviceProtection" value='2'>
+        <label for="DeviceProtection">No</label>
+        <input type="radio" id=0 name="DeviceProtection" value=0>
+
+        <h3>TechSupport</h3>
+        <label for="TechSupport">No internet service</label>
+        <input type="radio" id='1' name="TechSupport" value='1'>
+        <label for="TechSupport">Yes</label>
+        <input type="radio" id='2' name="TechSupport" value='2'>
+        <label for="TechSupport">No</label>
+        <input type="radio" id=0 name="TechSupport" value=0>
+
+        <h3>StreamingTV</h3>
+        <label for="StreamingTV">No internet service</label>
+        <input type="radio" id='1' name="StreamingTV" value='1'>
+        <label for="StreamingTV">Yes</label>
+        <input type="radio" id='2' name="StreamingTV" value='2'>
+        <label for="StreamingTV">No</label>
+        <input type="radio" id=0 name="StreamingTV" value=0>
+
+        <h3>StreamingMovies</h3>
+        <label for="StreamingMovies">No internet service</label>
+        <input type="radio" id='1' name="StreamingMovies" value='1'>
+        <label for="StreamingMovies">Yes</label>
+        <input type="radio" id='2' name="StreamingMovies" value='2'>
+        <label for="StreamingMovies">No</label>
+        <input type="radio" id=0 name="StreamingMovies" value=0>
+
+        <h3>Contract</h3>
+        <label for="Contract">Month-to-month</label>
+        <input type="radio" id='0' name="Contract" value='0'>
+        <label for="Contract">One year</label>
+        <input type="radio" id='1' name="Contract" value='1'>
+        <label for="Contract">Two year</label>
+        <input type="radio" id=2 name="Contract" value=2>
+
+        <h3>PaperlessBilling</h3>
+        <label for="PaperlessBilling">Yes</label>
+        <input type="radio" id='1' name="PaperlessBilling" value='1'>
+        <label for="PaperlessBilling">No</label>
+        <input type="radio" id='0' name="PaperlessBilling" value='0'>
+
+        <h3>PaymentMethod</h3>
+        <label for="PaymentMethod">Electronic check</label>
+        <input type="radio" id='2' name="PaymentMethod" value='2'>
+        <label for="PaymentMethod">Mailed check</label>
+        <input type="radio" id='3' name="PaymentMethod" value='3'>
+        <label for="PaymentMethod">Bank transfer (automatic)</label>
+        <input type="radio" id=0 name="PaymentMethod" value=0>
+        <label for="PaymentMethod">Credit card (automatic))</label>
+        <input type="radio" id=1 name="PaymentMethod" value=1>
+
+        <h3>MonthlyCharges</h3>
+        <input type="number" name="MonthlyCharges" placeholder="tenure"><br>
+
+        <h3>TotalCharges</h3>
+        <input type="number" name="TotalCharges" placeholder="tenure"><br>
+
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+</html>
